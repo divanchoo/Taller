@@ -1,12 +1,10 @@
-import Logo from "./components/logo";
-
 const App = () => {
   return (
     <>
       <div className="bg-[url('./assets/images/bg-header-desktop.png')] bg-contain bg-no-repeat bg-white-100 min-h-screen">
         <header className="container mx-auto px-4">
           <div className="flex justify-center pt-8">
-            <button><Logo /></button>
+            <button></button>
           </div>
         </header>
         <main>
@@ -28,8 +26,8 @@ const App = () => {
               <p className=" uppercase text-3xl font-semibold text-gray-700 tracking-[0.3em]  ">Keep track of your snippets</p>
             </article>
             <article className="flex justify-center py-2">
-              <p className="flex justify-center grow text-gray-400 text-sm">Clipboard instantly stores any item you copy in the cloud, meaning you can access <br/>
-                your snippets immediately on all your devices. Our Mac and iOS apps will help you <br/>
+              <p className="flex justify-center grow text-gray-400 text-sm">Clipboard instantly stores any item you copy in the cloud, meaning you can access <br />
+                your snippets immediately on all your devices. Our Mac and iOS apps will help you <br />
                 organize everything </p>
 
             </article>
